@@ -174,6 +174,7 @@ h3, .plus {
 
 .item_input:checked + .content {
     display:flex;
+    
 }
 
 .item:active .plus {
@@ -184,3 +185,8 @@ h3, .plus {
     color: blue;
 }
 
+.item_input + .content {
+    
+    transition: all 3000ms ease-out 3000ms;
+    
+}
