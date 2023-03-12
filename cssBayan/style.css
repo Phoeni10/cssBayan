@@ -150,21 +150,28 @@ h3, .plus {
 }
 
 
+@media (hover:hover) {
+    
+    .item_input:hover + .content {
+        display: flex;
+    }
 
-.item_input:hover + .content {
-    display: flex;
+    .item:hover .plus{
+        display:block;
+        transform: rotate(45deg);
+    }
+
+    .accordion:hover h3 {
+        color: black;
+    }
+
+    .accordion:hover .plus {
+        display:block;
+        color: black;
+    }
+
 }
 
-.item:hover .plus{
-    display:block;
-    transform: rotate(45deg);
-}
-
-.accordion:hover h3 {
-    color: black;
-}
-
-.accordion:hover .plus {
-    display:block;
-    color: black;
+.item_input:checked + .content {
+    display:flex;
 }
