@@ -175,3 +175,12 @@ h3, .plus {
 .item_input:checked + .content {
     display:flex;
 }
+
+.item:active .plus {
+    color:blue;
+}
+
+.item:active h3 {
+    color: blue;
+}
+
