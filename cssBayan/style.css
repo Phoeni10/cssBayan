@@ -145,3 +145,19 @@ h3, .plus {
     
 }
 
+.plus {
+    display:none;
+}
+
+
+
+.item_input:hover + .content {
+    display: flex;
+}
+
+.item:hover .plus{
+    display:block;
+    transform: rotate(45deg);
+}
+
+
