@@ -46,26 +46,28 @@ h1 {
         margin-bottom: 0.07em;  
     }
 }
-h3 {
+h3, .plus {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 4em;
     text-align: center;
     margin-bottom: 0.2em;
+    color:blue;
 }
+
 @media (max-width: 1920px) {
-    h3 {
+    h3, .plus {
         font-size: 2em;
         margin-bottom: 0.14em;
     }
 }
 @media (max-width: 820px) {
-    h3 {
+    h3, .plus {
         font-size: 1.5em;
         margin-bottom: 0.08em;
     }
 }
 @media (max-width: 320px) {
-    h3 {
+    h3, .plus {
         font-size: 0.05em;
 
     }
@@ -126,3 +128,20 @@ h3 {
     width: 100%;
     object-fit: cover;
 }
+
+.content {
+    display:none;
+}
+
+.item_input {
+    appearance: none;
+    position: absolute;
+}
+
+.title {
+    display: flex;
+    box-sizing: content-box;
+    justify-content: space-between;
+    
+}
+
