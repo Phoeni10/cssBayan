@@ -160,4 +160,11 @@ h3, .plus {
     transform: rotate(45deg);
 }
 
+.accordion:hover h3 {
+    color: black;
+}
 
+.accordion:hover .plus {
+    display:block;
+    color: black;
+}
